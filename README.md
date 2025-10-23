@@ -42,3 +42,13 @@ This script reverses the grid-combining process. It splits a combined grid image
 
 Use Case:
 Useful when you need to recover or reprocess individual frames that were previously merged into a grid — for example, during dataset reconstruction or video restoration tasks.
+
+
+4️⃣ frames_to_video.py
+
+Concept:
+A video can be reconstructed from a sequence of images (frames) displayed rapidly one after another at a fixed frame rate (FPS).
+This script reads ordered frames from a folder and compiles them into a playable video file.
+
+Use Case:
+Ideal for generating a video after frame-based processing — such as after image filtering, animation rendering, AI-generated frame interpolation, or reconstruction from extracted frames.
